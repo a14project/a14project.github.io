@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: #8fc57b;
+}
+.medsos ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content:'' ;
+    display: block;
+    clear:both;
+}
+header{
+}
+header h1{
+    float: left;
+    padding: 15px 0;
+    color: #327219;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: #8fc57b;
+    color: #fff;
+}
+.active{
+    background-color: #8fc57b;
+    color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(banner.jpg);
+	background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after{
+    content:" ";
+    display: block;
+    position: absolute;
+    top: 0;
+    Left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(138, 202, 115, 0.6) ;
+}
+.banner h2{
+    color: #fff024;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff024;
+}
+section{
+    padding: 50px 0;
+}
+section h3{
+    text-align: center;
+    padding: 30px 0;
+    color: #7cce5e;
+}
+.about p{
+    color: #255812;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+.contact{
+    background-color: #377762;
+}
+.footer{
+    padding: 30px 0;
+    background-color: #a8cc86;
+    color: #ffffff;
+    text-align: center;
+}
+  .lesson-wrapper {
+    height: 300px;
+    padding-bottom: 80px;
+    background-color: #074b07c7;
+    text-align: center;
+  }
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #ffffff;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+
+  .lesson-icon {
+    position: relative;
+  }
+
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  footer img {
+    width: 124px;
+  }
+  footer p {
+    color: #305e0d;
+    font-size: 12px;
+  }
+  footer {
+    padding-top: 30px;
+  }
+  span.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+  h1 {
+    color:red;
+  }
+  @media (max-width: 1000px) {
+    h1{
+        color: blue;
+    }
+  }
+  @media (max-width: 670px) {
+    h1 {
+        color: green;
+    }
+  }
